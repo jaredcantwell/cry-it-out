@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B935296C229EF3C700209EBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B935296B229EF3C700209EBF /* AppDelegate.swift */; };
+		B935296E229EF3C700209EBF /* SoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B935296D229EF3C700209EBF /* SoundController.swift */; };
+		B9352970229EF3C700209EBF /* GraphController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B935296F229EF3C700209EBF /* GraphController.swift */; };
+		B9352973229EF3C700209EBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9352971229EF3C700209EBF /* Main.storyboard */; };
+		B9352975229EF3C700209EBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9352974229EF3C700209EBF /* Assets.xcassets */; };
+		B9352978229EF3C700209EBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9352976229EF3C700209EBF /* LaunchScreen.storyboard */; };
+		B9352983229EF3C700209EBF /* Baby_Sleep_TrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9352982229EF3C700209EBF /* Baby_Sleep_TrainerTests.swift */; };
+		B935298E229EF3C700209EBF /* Baby_Sleep_TrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B935298D229EF3C700209EBF /* Baby_Sleep_TrainerUITests.swift */; };
+		B93529A0229EF6E600209EBF /* mic.png in Resources */ = {isa = PBXBuildFile; fileRef = B935299F229EF6E600209EBF /* mic.png */; };
+		B93529A3229EF94F00209EBF /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93529A2229EF94F00209EBF /* Record.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B935297F229EF3C700209EBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9352960229EF3C600209EBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9352967229EF3C600209EBF;
+			remoteInfo = "Baby Sleep Trainer";
+		};
+		B935298A229EF3C700209EBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9352960229EF3C600209EBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9352967229EF3C600209EBF;
+			remoteInfo = "Baby Sleep Trainer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9352968229EF3C700209EBF /* Baby Sleep Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baby Sleep Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B935296B229EF3C700209EBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B935296D229EF3C700209EBF /* SoundController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundController.swift; sourceTree = "<group>"; };
+		B935296F229EF3C700209EBF /* GraphController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphController.swift; sourceTree = "<group>"; };
+		B9352972229EF3C700209EBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9352974229EF3C700209EBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9352977229EF3C700209EBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9352979229EF3C700209EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B935297E229EF3C700209EBF /* Baby Sleep TrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baby Sleep TrainerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9352982229EF3C700209EBF /* Baby_Sleep_TrainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_Sleep_TrainerTests.swift; sourceTree = "<group>"; };
+		B9352984229EF3C700209EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9352989229EF3C700209EBF /* Baby Sleep TrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baby Sleep TrainerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B935298D229EF3C700209EBF /* Baby_Sleep_TrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_Sleep_TrainerUITests.swift; sourceTree = "<group>"; };
+		B935298F229EF3C700209EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B935299F229EF6E600209EBF /* mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic.png; sourceTree = "<group>"; };
+		B93529A2229EF94F00209EBF /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9352965229EF3C600209EBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B935297B229EF3C700209EBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9352986229EF3C700209EBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B935295F229EF3C600209EBF = {
+			isa = PBXGroup;
+			children = (
+				B935296A229EF3C700209EBF /* Baby Sleep Trainer */,
+				B93529A1229EF6F100209EBF /* media */,
+				B9352981229EF3C700209EBF /* Baby Sleep TrainerTests */,
+				B935298C229EF3C700209EBF /* Baby Sleep TrainerUITests */,
+				B9352969229EF3C700209EBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9352969229EF3C700209EBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9352968229EF3C700209EBF /* Baby Sleep Trainer.app */,
+				B935297E229EF3C700209EBF /* Baby Sleep TrainerTests.xctest */,
+				B9352989229EF3C700209EBF /* Baby Sleep TrainerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B935296A229EF3C700209EBF /* Baby Sleep Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				B935299E229EF51700209EBF /* Model */,
+				B935299D229EF47700209EBF /* Controller */,
+				B935299C229EF46D00209EBF /* View */,
+				B935299B229EF45400209EBF /* Supporting Files */,
+			);
+			path = "Baby Sleep Trainer";
+			sourceTree = "<group>";
+		};
+		B9352981229EF3C700209EBF /* Baby Sleep TrainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9352982229EF3C700209EBF /* Baby_Sleep_TrainerTests.swift */,
+				B9352984229EF3C700209EBF /* Info.plist */,
+			);
+			path = "Baby Sleep TrainerTests";
+			sourceTree = "<group>";
+		};
+		B935298C229EF3C700209EBF /* Baby Sleep TrainerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B935298D229EF3C700209EBF /* Baby_Sleep_TrainerUITests.swift */,
+				B935298F229EF3C700209EBF /* Info.plist */,
+			);
+			path = "Baby Sleep TrainerUITests";
+			sourceTree = "<group>";
+		};
+		B935299B229EF45400209EBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B935296B229EF3C700209EBF /* AppDelegate.swift */,
+				B9352974229EF3C700209EBF /* Assets.xcassets */,
+				B9352979229EF3C700209EBF /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B935299C229EF46D00209EBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9352971229EF3C700209EBF /* Main.storyboard */,
+				B9352976229EF3C700209EBF /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B935299D229EF47700209EBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B935296D229EF3C700209EBF /* SoundController.swift */,
+				B935296F229EF3C700209EBF /* GraphController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B935299E229EF51700209EBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B93529A2229EF94F00209EBF /* Record.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B93529A1229EF6F100209EBF /* media */ = {
+			isa = PBXGroup;
+			children = (
+				B935299F229EF6E600209EBF /* mic.png */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9352967229EF3C600209EBF /* Baby Sleep Trainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9352992229EF3C700209EBF /* Build configuration list for PBXNativeTarget "Baby Sleep Trainer" */;
+			buildPhases = (
+				B9352964229EF3C600209EBF /* Sources */,
+				B9352965229EF3C600209EBF /* Frameworks */,
+				B9352966229EF3C600209EBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Baby Sleep Trainer";
+			productName = "Baby Sleep Trainer";
+			productReference = B9352968229EF3C700209EBF /* Baby Sleep Trainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B935297D229EF3C700209EBF /* Baby Sleep TrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9352995229EF3C700209EBF /* Build configuration list for PBXNativeTarget "Baby Sleep TrainerTests" */;
+			buildPhases = (
+				B935297A229EF3C700209EBF /* Sources */,
+				B935297B229EF3C700209EBF /* Frameworks */,
+				B935297C229EF3C700209EBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9352980229EF3C700209EBF /* PBXTargetDependency */,
+			);
+			name = "Baby Sleep TrainerTests";
+			productName = "Baby Sleep TrainerTests";
+			productReference = B935297E229EF3C700209EBF /* Baby Sleep TrainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9352988229EF3C700209EBF /* Baby Sleep TrainerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9352998229EF3C700209EBF /* Build configuration list for PBXNativeTarget "Baby Sleep TrainerUITests" */;
+			buildPhases = (
+				B9352985229EF3C700209EBF /* Sources */,
+				B9352986229EF3C700209EBF /* Frameworks */,
+				B9352987229EF3C700209EBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B935298B229EF3C700209EBF /* PBXTargetDependency */,
+			);
+			name = "Baby Sleep TrainerUITests";
+			productName = "Baby Sleep TrainerUITests";
+			productReference = B9352989229EF3C700209EBF /* Baby Sleep TrainerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9352960229EF3C600209EBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Hazy Studios";
+				TargetAttributes = {
+					B9352967229EF3C600209EBF = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					B935297D229EF3C700209EBF = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = B9352967229EF3C600209EBF;
+					};
+					B9352988229EF3C700209EBF = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = B9352967229EF3C600209EBF;
+					};
+				};
+			};
+			buildConfigurationList = B9352963229EF3C600209EBF /* Build configuration list for PBXProject "Cry It Out" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B935295F229EF3C600209EBF;
+			productRefGroup = B9352969229EF3C700209EBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9352967229EF3C600209EBF /* Baby Sleep Trainer */,
+				B935297D229EF3C700209EBF /* Baby Sleep TrainerTests */,
+				B9352988229EF3C700209EBF /* Baby Sleep TrainerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9352966229EF3C600209EBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9352978229EF3C700209EBF /* LaunchScreen.storyboard in Resources */,
+				B9352975229EF3C700209EBF /* Assets.xcassets in Resources */,
+				B9352973229EF3C700209EBF /* Main.storyboard in Resources */,
+				B93529A0229EF6E600209EBF /* mic.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B935297C229EF3C700209EBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9352987229EF3C700209EBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9352964229EF3C600209EBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9352970229EF3C700209EBF /* GraphController.swift in Sources */,
+				B935296C229EF3C700209EBF /* AppDelegate.swift in Sources */,
+				B93529A3229EF94F00209EBF /* Record.swift in Sources */,
+				B935296E229EF3C700209EBF /* SoundController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B935297A229EF3C700209EBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9352983229EF3C700209EBF /* Baby_Sleep_TrainerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9352985229EF3C700209EBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B935298E229EF3C700209EBF /* Baby_Sleep_TrainerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9352980229EF3C700209EBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9352967229EF3C600209EBF /* Baby Sleep Trainer */;
+			targetProxy = B935297F229EF3C700209EBF /* PBXContainerItemProxy */;
+		};
+		B935298B229EF3C700209EBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9352967229EF3C600209EBF /* Baby Sleep Trainer */;
+			targetProxy = B935298A229EF3C700209EBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9352971229EF3C700209EBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9352972229EF3C700209EBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9352976229EF3C700209EBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9352977229EF3C700209EBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9352990229EF3C700209EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9352991229EF3C700209EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9352993229EF3C700209EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34P4RF23ET;
+				INFOPLIST_FILE = "$(SRCROOT)/Baby Sleep Trainer/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hazystudios.Baby-Sleep-Trainer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9352994229EF3C700209EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34P4RF23ET;
+				INFOPLIST_FILE = "$(SRCROOT)/Baby Sleep Trainer/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hazystudios.Baby-Sleep-Trainer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B9352996229EF3C700209EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34P4RF23ET;
+				INFOPLIST_FILE = "Baby Sleep TrainerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hazystudios.Baby-Sleep-TrainerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baby Sleep Trainer.app/Baby Sleep Trainer";
+			};
+			name = Debug;
+		};
+		B9352997229EF3C700209EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34P4RF23ET;
+				INFOPLIST_FILE = "Baby Sleep TrainerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hazystudios.Baby-Sleep-TrainerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baby Sleep Trainer.app/Baby Sleep Trainer";
+			};
+			name = Release;
+		};
+		B9352999229EF3C700209EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34P4RF23ET;
+				INFOPLIST_FILE = "Baby Sleep TrainerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hazystudios.Baby-Sleep-TrainerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Baby Sleep Trainer";
+			};
+			name = Debug;
+		};
+		B935299A229EF3C700209EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34P4RF23ET;
+				INFOPLIST_FILE = "Baby Sleep TrainerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hazystudios.Baby-Sleep-TrainerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Baby Sleep Trainer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9352963229EF3C600209EBF /* Build configuration list for PBXProject "Cry It Out" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9352990229EF3C700209EBF /* Debug */,
+				B9352991229EF3C700209EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9352992229EF3C700209EBF /* Build configuration list for PBXNativeTarget "Baby Sleep Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9352993229EF3C700209EBF /* Debug */,
+				B9352994229EF3C700209EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9352995229EF3C700209EBF /* Build configuration list for PBXNativeTarget "Baby Sleep TrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9352996229EF3C700209EBF /* Debug */,
+				B9352997229EF3C700209EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9352998229EF3C700209EBF /* Build configuration list for PBXNativeTarget "Baby Sleep TrainerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9352999229EF3C700209EBF /* Debug */,
+				B935299A229EF3C700209EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9352960229EF3C600209EBF /* Project object */;
+}
